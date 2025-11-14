@@ -1,0 +1,131 @@
+
+.container.data-v-deb8bc6e {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+}
+.tabs.data-v-deb8bc6e {
+	display: flex;
+	background-color: #fff;
+	padding: 0 20rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.tab-item.data-v-deb8bc6e {
+	flex: 1;
+	text-align: center;
+	padding: 30rpx 0;
+	font-size: 28rpx;
+	color: #666;
+	position: relative;
+}
+.tab-item.active.data-v-deb8bc6e {
+	color: #007AFF;
+	font-weight: bold;
+}
+.tab-item.active.data-v-deb8bc6e::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60rpx;
+	height: 4rpx;
+	background-color: #007AFF;
+}
+.goods-list.data-v-deb8bc6e {
+	padding: 20rpx;
+}
+.goods-item.data-v-deb8bc6e {
+	display: flex;
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.goods-image.data-v-deb8bc6e {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+	margin-right: 20rpx;
+	flex-shrink: 0;
+}
+.goods-info.data-v-deb8bc6e {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.goods-title.data-v-deb8bc6e {
+	font-size: 28rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.goods-meta.data-v-deb8bc6e {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+.goods-price.data-v-deb8bc6e {
+	font-size: 32rpx;
+	color: #FF5722;
+	font-weight: bold;
+}
+.goods-status.data-v-deb8bc6e {
+	font-size: 24rpx;
+	padding: 5rpx 15rpx;
+	border-radius: 5rpx;
+}
+.goods-status.onSale.data-v-deb8bc6e {
+	background-color: #E3F2FD;
+	color: #1976D2;
+}
+.goods-status.offShelf.data-v-deb8bc6e {
+	background-color: #FFF3E0;
+	color: #F57C00;
+}
+.goods-status.sold.data-v-deb8bc6e {
+	background-color: #E8F5E9;
+	color: #388E3C;
+}
+.goods-actions.data-v-deb8bc6e {
+	display: flex;
+	gap: 20rpx;
+}
+.action-btn.data-v-deb8bc6e {
+	flex: 1;
+	height: 60rpx;
+	line-height: 60rpx;
+	background-color: #F5F5F5;
+	color: #333;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+	border: none;
+	padding: 0;
+	text-align: center;
+}
+.action-btn.danger.data-v-deb8bc6e {
+	background-color: #FFEBEE;
+	color: #D32F2F;
+}
+.empty.data-v-deb8bc6e {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100rpx 0;
+	color: #999;
+	font-size: 28rpx;
+}
+.loading.data-v-deb8bc6e {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100rpx 0;
+	color: #999;
+	font-size: 28rpx;
+}

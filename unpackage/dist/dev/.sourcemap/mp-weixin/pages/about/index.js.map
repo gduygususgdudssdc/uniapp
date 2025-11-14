@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../hbuildx/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvYWJvdXQvaW5kZXgudnVl"],"sourcesContent":["import MiniProgramPage from 'G:/小程序xycy页面/SkyMark/pages/about/index.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

@@ -1,0 +1,46 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: skymark-backend
+  
+  # 静态资源配置
+  web:
+    resources:
+      static-locations: classpath:/static/
+      add-mappings: true
+  
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/skymark?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
+logging:
+  level:
+    com.skymark: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+# 微信小程序配置
+wechat:
+  appid: wx405d13f536d66255  
+  secret: 9b53e0b58d945bb235e4bdc0bb5fb114 
+
+
+
+
+

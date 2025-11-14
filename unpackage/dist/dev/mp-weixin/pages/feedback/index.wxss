@@ -1,0 +1,108 @@
+
+.container.data-v-2aa7bac2 {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	padding: 20rpx;
+}
+.form.data-v-2aa7bac2 {
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 30rpx;
+}
+.form-item.data-v-2aa7bac2 {
+	margin-bottom: 40rpx;
+}
+.label.data-v-2aa7bac2 {
+	font-size: 28rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.picker.data-v-2aa7bac2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80rpx;
+	background-color: #F5F5F5;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+}
+.picker text.placeholder.data-v-2aa7bac2 {
+	color: #999;
+}
+.textarea.data-v-2aa7bac2 {
+	width: 100%;
+	min-height: 200rpx;
+	background-color: #F5F5F5;
+	border-radius: 10rpx;
+	padding: 20rpx;
+	font-size: 28rpx;
+}
+.char-count.data-v-2aa7bac2 {
+	font-size: 24rpx;
+	color: #999;
+	text-align: right;
+	margin-top: 10rpx;
+	display: block;
+}
+.upload-images.data-v-2aa7bac2 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20rpx;
+}
+.image-item.data-v-2aa7bac2 {
+	position: relative;
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.image-item image.data-v-2aa7bac2 {
+	width: 100%;
+	height: 100%;
+}
+.delete-btn.data-v-2aa7bac2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40rpx;
+	height: 40rpx;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32rpx;
+	border-radius: 0 0 0 10rpx;
+}
+.upload-btn.data-v-2aa7bac2 {
+	width: 200rpx;
+	height: 200rpx;
+	border: 2rpx dashed #ddd;
+	border-radius: 10rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #999;
+	font-size: 24rpx;
+}
+.input.data-v-2aa7bac2 {
+	width: 100%;
+	height: 80rpx;
+	background-color: #F5F5F5;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	font-size: 28rpx;
+}
+.submit-btn.data-v-2aa7bac2 {
+	width: 100%;
+	height: 88rpx;
+	background-color: #007AFF;
+	color: #fff;
+	border-radius: 50rpx;
+	font-size: 32rpx;
+	margin-top: 40rpx;
+	border: none;
+}

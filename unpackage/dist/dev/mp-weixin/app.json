@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/list",
+    "pages/goods/detail",
+    "pages/goods/publish",
+    "pages/goods/edit",
+    "pages/goods/my",
+    "pages/category/index",
+    "pages/search/index",
+    "pages/search/result",
+    "pages/user/login",
+    "pages/user/register",
+    "pages/user/profile",
+    "pages/user/edit",
+    "pages/user/updata",
+    "pages/user/favorites",
+    "pages/order/list",
+    "pages/order/detail",
+    "pages/message/list",
+    "pages/message/chat",
+    "pages/address/list",
+    "pages/address/edit",
+    "pages/settings/index",
+    "pages/about/index",
+    "pages/help/index",
+    "pages/feedback/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "二手交易平台",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "static/tabbar/category.png",
+        "selectedIconPath": "static/tabbar/category.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/goods/publish",
+        "iconPath": "static/tabbar/public.png",
+        "selectedIconPath": "static/tabbar/public.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/message/list",
+        "iconPath": "static/tabbar/message.png",
+        "selectedIconPath": "static/tabbar/message.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

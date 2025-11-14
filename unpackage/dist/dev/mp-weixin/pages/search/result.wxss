@@ -1,0 +1,130 @@
+
+.container.data-v-51958986 {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+}
+.search-bar.data-v-51958986 {
+	background-color: #fff;
+	padding: 20rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.search-input-wrapper.data-v-51958986 {
+	display: flex;
+	align-items: center;
+	background-color: #F5F5F5;
+	border-radius: 40rpx;
+	padding: 0 30rpx;
+	height: 70rpx;
+}
+.search-input.data-v-51958986 {
+	flex: 1;
+	font-size: 28rpx;
+	margin: 0 10rpx;
+}
+.search-icon.data-v-51958986 {
+	font-size: 24rpx;
+	margin-right: 10rpx;
+}
+.arrow-icon.data-v-51958986 {
+	font-size: 20rpx;
+	margin-left: 10rpx;
+	color: #666;
+}
+.checkmark-icon.data-v-51958986 {
+	font-size: 24rpx;
+	color: #007AFF;
+	font-weight: bold;
+}
+.filter-bar.data-v-51958986 {
+	display: flex;
+	background-color: #fff;
+	padding: 20rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.filter-item.data-v-51958986 {
+	display: flex;
+	align-items: center;
+	font-size: 28rpx;
+	color: #666;
+}
+.goods-list.data-v-51958986 {
+	padding: 20rpx;
+}
+.goods-item.data-v-51958986 {
+	display: flex;
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.goods-image.data-v-51958986 {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+	margin-right: 20rpx;
+}
+.goods-info.data-v-51958986 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.goods-title.data-v-51958986 {
+	font-size: 28rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.goods-desc.data-v-51958986 {
+	font-size: 24rpx;
+	color: #999;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	margin-bottom: 10rpx;
+}
+.goods-footer.data-v-51958986 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.goods-price.data-v-51958986 {
+	font-size: 32rpx;
+	color: #FF5722;
+	font-weight: bold;
+}
+.goods-location.data-v-51958986 {
+	font-size: 22rpx;
+	color: #999;
+}
+.empty.data-v-51958986 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100rpx 0;
+	color: #999;
+}
+.popup.data-v-51958986 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+}
+.popup-content.data-v-51958986 {
+	background-color: #fff;
+	margin-top: 88rpx;
+}
+.popup-item.data-v-51958986 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.popup-item.active.data-v-51958986 {
+	color: #007AFF;
+}

@@ -1,0 +1,70 @@
+
+.container.data-v-415a4f9d {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	padding: 40rpx;
+}
+.about-section.data-v-415a4f9d {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 20rpx;
+	padding: 60rpx 40rpx;
+	margin-bottom: 30rpx;
+}
+.logo.data-v-415a4f9d {
+	width: 150rpx;
+	height: 150rpx;
+	margin-bottom: 30rpx;
+}
+.app-name.data-v-415a4f9d {
+	font-size: 36rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 15rpx;
+}
+.version.data-v-415a4f9d {
+	font-size: 24rpx;
+	color: #999;
+}
+.info-section.data-v-415a4f9d {
+	background-color: #fff;
+	border-radius: 20rpx;
+	padding: 40rpx;
+	margin-bottom: 30rpx;
+}
+.info-title.data-v-415a4f9d {
+	font-size: 32rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 30rpx;
+	display: block;
+}
+.info-content.data-v-415a4f9d {
+	font-size: 28rpx;
+	color: #666;
+	line-height: 1.8;
+	display: block;
+}
+.contact-item.data-v-415a4f9d {
+	display: flex;
+	margin-bottom: 20rpx;
+}
+.contact-label.data-v-415a4f9d {
+	font-size: 28rpx;
+	color: #666;
+	width: 200rpx;
+}
+.contact-value.data-v-415a4f9d {
+	font-size: 28rpx;
+	color: #333;
+}
+.copyright.data-v-415a4f9d {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40rpx 0;
+	color: #999;
+	font-size: 24rpx;
+}

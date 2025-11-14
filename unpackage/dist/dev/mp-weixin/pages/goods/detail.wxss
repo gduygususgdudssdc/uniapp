@@ -1,0 +1,136 @@
+
+.container.data-v-adbe0a1d {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	padding-bottom: 100rpx;
+}
+.swiper.data-v-adbe0a1d {
+	width: 100%;
+	height: 750rpx;
+	background-color: #fff;
+}
+.swiper-image.data-v-adbe0a1d {
+	width: 100%;
+	height: 100%;
+}
+.goods-info.data-v-adbe0a1d {
+	background-color: #fff;
+	padding: 30rpx;
+	margin-bottom: 20rpx;
+}
+.price-row.data-v-adbe0a1d {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 20rpx;
+}
+.price.data-v-adbe0a1d {
+	font-size: 48rpx;
+	color: #FF5722;
+	font-weight: bold;
+	margin-right: 20rpx;
+}
+.original-price.data-v-adbe0a1d {
+	font-size: 28rpx;
+	color: #999;
+	text-decoration: line-through;
+}
+.title.data-v-adbe0a1d {
+	font-size: 32rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.meta.data-v-adbe0a1d {
+	display: flex;
+	gap: 30rpx;
+}
+.meta-item.data-v-adbe0a1d {
+	font-size: 24rpx;
+	color: #999;
+}
+.seller-info.data-v-adbe0a1d {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 30rpx;
+	margin-bottom: 20rpx;
+}
+.seller-avatar.data-v-adbe0a1d {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	margin-right: 20rpx;
+}
+.seller-details.data-v-adbe0a1d {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.seller-name.data-v-adbe0a1d {
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 10rpx;
+}
+.seller-location.data-v-adbe0a1d {
+	font-size: 24rpx;
+	color: #999;
+}
+.contact-btn.data-v-adbe0a1d {
+	padding: 10rpx 30rpx;
+	background-color: #007AFF;
+	color: #fff;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+}
+.description.data-v-adbe0a1d {
+	background-color: #fff;
+	padding: 30rpx;
+}
+.desc-title.data-v-adbe0a1d {
+	font-size: 32rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.desc-content.data-v-adbe0a1d {
+	font-size: 28rpx;
+	color: #666;
+	line-height: 1.8;
+	display: block;
+}
+.bottom-bar.data-v-adbe0a1d {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 20rpx;
+	border-top: 1rpx solid #eee;
+	z-index: 999;
+}
+.action-btn.data-v-adbe0a1d {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30rpx;
+	font-size: 24rpx;
+	color: #666;
+}
+.like-icon.data-v-adbe0a1d {
+	font-size: 32rpx;
+	margin-bottom: 5rpx;
+}
+.buy-btn.data-v-adbe0a1d {
+	flex: 1;
+	background-color: #FF5722;
+	color: #fff;
+	border-radius: 50rpx;
+	font-size: 28rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border: none;
+}
