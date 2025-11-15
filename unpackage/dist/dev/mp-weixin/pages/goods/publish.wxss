@@ -1,7 +1,7 @@
 
 .container.data-v-64ea4b46 {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 	padding: 20rpx;
 }
 .form.data-v-64ea4b46 {
@@ -24,7 +24,7 @@
 	height: 80rpx;
 	background-color: #F5F5F5;
 	border-radius: 10rpx;
-	padding: 0 20rpx;
+	padding-left:  20rpx;
 	font-size: 28rpx;
 }
 .picker.data-v-64ea4b46 {
@@ -106,7 +106,7 @@
 	min-height: 200rpx;
 	background-color: #F5F5F5;
 	border-radius: 10rpx;
-	padding: 20rpx;
+	padding-left: 20rpx;
 	font-size: 28rpx;
 }
 .char-count.data-v-64ea4b46 {

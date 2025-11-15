@@ -1,7 +1,7 @@
 
 .container.data-v-1cf27b2a {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 }
 .search-bar.data-v-1cf27b2a {
 	display: flex;

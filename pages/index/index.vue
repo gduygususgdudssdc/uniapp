@@ -268,7 +268,7 @@ onLoad(() => {
 <style scoped>
 .container {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 }
 
 .search-bar {

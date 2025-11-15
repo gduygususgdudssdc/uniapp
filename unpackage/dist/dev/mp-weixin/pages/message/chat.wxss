@@ -1,11 +1,15 @@
 
 .container.data-v-013fa921 {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 	padding-bottom: 120rpx;
+	display: flex;
+	flex-direction: column;
 }
 .chat-list.data-v-013fa921 {
+	flex: 1;
 	padding: 20rpx;
+	height: calc(100vh - 120rpx);
 }
 .chat-item.data-v-013fa921 {
 	display: flex;
@@ -20,6 +24,7 @@
 	height: 60rpx;
 	border-radius: 50%;
 	margin: 0 20rpx;
+	flex-shrink: 0;
 }
 .message-bubble.data-v-013fa921 {
 	max-width: 60%;
@@ -27,6 +32,8 @@
 	border-radius: 10rpx;
 	padding: 20rpx;
 	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
 }
 .chat-item.self .message-bubble.data-v-013fa921 {
 	background-color: #007AFF;
@@ -35,9 +42,19 @@
 	font-size: 28rpx;
 	color: #333;
 	line-height: 1.5;
+	word-break: break-word;
 }
 .chat-item.self .message-text.data-v-013fa921 {
 	color: #fff;
+}
+.message-time.data-v-013fa921 {
+	font-size: 20rpx;
+	color: #999;
+	margin-top: 10rpx;
+	align-self: flex-end;
+}
+.chat-item.self .message-time.data-v-013fa921 {
+	color: rgba(255, 255, 255, 0.7);
 }
 .input-bar.data-v-013fa921 {
 	position: fixed;
@@ -61,9 +78,21 @@
 	margin-right: 20rpx;
 }
 .send-btn.data-v-013fa921 {
-	width: 70rpx;
+	width: 120rpx;
 	height: 70rpx;
+	background-color: #007AFF;
+	border-radius: 35rpx;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.send-text.data-v-013fa921 {
+	color: #fff;
+	font-size: 28rpx;
+}
+.loading.data-v-013fa921 {
+	text-align: center;
+	padding: 20rpx;
+	color: #999;
+	font-size: 24rpx;
 }

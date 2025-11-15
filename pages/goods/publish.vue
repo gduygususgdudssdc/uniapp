@@ -265,7 +265,7 @@ onLoad(() => {
 <style scoped>
 .container {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 	padding: 20rpx;
 }
 
@@ -292,7 +292,7 @@ onLoad(() => {
 	height: 80rpx;
 	background-color: #F5F5F5;
 	border-radius: 10rpx;
-	padding: 0 20rpx;
+	padding-left:  20rpx;
 	font-size: 28rpx;
 }
 
@@ -386,7 +386,7 @@ onLoad(() => {
 	min-height: 200rpx;
 	background-color: #F5F5F5;
 	border-radius: 10rpx;
-	padding: 20rpx;
+	padding-left: 20rpx;
 	font-size: 28rpx;
 }
 

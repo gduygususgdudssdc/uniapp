@@ -172,11 +172,34 @@ const favoriteApi = {
     return utils_api.get(`/favorite/count/${userId}`);
   }
 };
+const messageApi = {
+  // 发送消息
+  sendMessage(data) {
+    return utils_api.post("/message/send", data);
+  },
+  // 获取聊天记录
+  getChatMessages(userId1, userId2) {
+    return utils_api.get("/message/chat", { userId1, userId2 });
+  },
+  // 获取消息列表（所有对话）
+  getMessageList(userId) {
+    return utils_api.get(`/message/list/${userId}`);
+  },
+  // 标记消息为已读
+  markAsRead(userId, senderId) {
+    return utils_api.post("/message/read", { userId, senderId });
+  },
+  // 获取未读消息数量
+  getUnreadCount(userId) {
+    return utils_api.get(`/message/unread/${userId}`);
+  }
+};
 exports.addressApi = addressApi;
 exports.bannerApi = bannerApi;
 exports.categoryApi = categoryApi;
 exports.favoriteApi = favoriteApi;
 exports.goodsApi = goodsApi;
+exports.messageApi = messageApi;
 exports.orderApi = orderApi;
 exports.userApi = userApi;
 //# sourceMappingURL=../../.sourcemap/mp-weixin/utils/apiService.js.map

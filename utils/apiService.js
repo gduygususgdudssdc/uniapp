@@ -218,6 +218,34 @@ export const favoriteApi = {
   }
 }
 
+// 消息相关 API
+export const messageApi = {
+  // 发送消息
+  sendMessage(data) {
+    return post('/message/send', data)
+  },
+  
+  // 获取聊天记录
+  getChatMessages(userId1, userId2) {
+    return get('/message/chat', { userId1, userId2 })
+  },
+  
+  // 获取消息列表（所有对话）
+  getMessageList(userId) {
+    return get(`/message/list/${userId}`)
+  },
+  
+  // 标记消息为已读
+  markAsRead(userId, senderId) {
+    return post('/message/read', { userId, senderId })
+  },
+  
+  // 获取未读消息数量
+  getUnreadCount(userId) {
+    return get(`/message/unread/${userId}`)
+  }
+}
+
 export default {
   userApi,
   goodsApi,
@@ -225,6 +253,7 @@ export default {
   categoryApi,
   addressApi,
   favoriteApi,
-  bannerApi
+  bannerApi,
+  messageApi
 }
 

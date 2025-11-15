@@ -8,7 +8,7 @@
 // 3. 公网访问（cpolar）：https://56b33ccb.r5.cpolar.top/api（替换为你的 cpolar 地址）
 // 4. 生产环境：https://your-domain.com/api（替换为你的服务器地址）
 
-export const API_BASE_URL = ' http://6eaebe82.r5.cpolar.top/api'
+export const API_BASE_URL = 'http://10.1.23.38:8080/api'
 
 // 请求超时时间（毫秒）
 export const API_TIMEOUT = 15000

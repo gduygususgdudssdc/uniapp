@@ -1,5 +1,5 @@
 "use strict";
-const API_BASE_URL = " http://6eaebe82.r5.cpolar.top/api";
+const API_BASE_URL = "http://10.1.23.38:8080/api";
 const API_TIMEOUT = 15e3;
 const SHOW_LOADING = true;
 const SHOW_ERROR = true;

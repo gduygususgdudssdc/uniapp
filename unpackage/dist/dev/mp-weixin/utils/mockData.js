@@ -426,18 +426,10 @@ function getGoodsList(params = {}) {
 function getGoodsDetail(id) {
   return mockData.goods.find((item) => item.id === id) || null;
 }
-function getChatMessages(userId) {
-  return mockData.chats[userId] || [];
-}
 function getAddressList() {
   return mockData.addresses;
 }
-function getUserInfo(userId) {
-  return mockData.users.find((user) => user.id === userId) || null;
-}
 exports.getAddressList = getAddressList;
-exports.getChatMessages = getChatMessages;
 exports.getGoodsDetail = getGoodsDetail;
 exports.getGoodsList = getGoodsList;
-exports.getUserInfo = getUserInfo;
 //# sourceMappingURL=../../.sourcemap/mp-weixin/utils/mockData.js.map

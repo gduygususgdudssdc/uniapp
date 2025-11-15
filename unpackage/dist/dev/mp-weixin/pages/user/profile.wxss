@@ -1,7 +1,7 @@
 
 .container.data-v-036958a5 {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 }
 .user-header.data-v-036958a5 {
 	display: flex;

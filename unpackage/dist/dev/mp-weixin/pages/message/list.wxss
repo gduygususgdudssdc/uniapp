@@ -1,23 +1,25 @@
 
 .container.data-v-904eb306 {
 	min-height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 }
 .message-list.data-v-904eb306 {
 	padding: 20rpx;
 }
 .message-item.data-v-904eb306 {
 	display: flex;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 10rpx;
 	padding: 30rpx;
 	margin-bottom: 20rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
 }
 .avatar.data-v-904eb306 {
 	width: 100rpx;
 	height: 100rpx;
 	border-radius: 50%;
 	margin-right: 20rpx;
+	flex-shrink: 0;
 }
 .message-content.data-v-904eb306 {
 	flex: 1;
@@ -52,6 +54,7 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	margin-right: 20rpx;
 }
 .unread-badge.data-v-904eb306 {
 	min-width: 36rpx;
@@ -61,12 +64,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0 10rpx;
-	margin-left: 20rpx;
+	padding: 0 12rpx;
 }
 .unread-badge text.data-v-904eb306 {
 	font-size: 20rpx;
 	color: #fff;
+	font-weight: bold;
 }
 .empty.data-v-904eb306 {
 	display: flex;
@@ -74,9 +77,18 @@
 	align-items: center;
 	justify-content: center;
 	padding: 200rpx 0;
+}
+.empty-icon.data-v-904eb306 {
+	font-size: 120rpx;
+	margin-bottom: 30rpx;
+}
+.empty-text.data-v-904eb306 {
+	font-size: 28rpx;
 	color: #999;
 }
-.empty text.data-v-904eb306 {
-	margin-top: 30rpx;
+.loading.data-v-904eb306 {
+	text-align: center;
+	padding: 40rpx 0;
+	color: #999;
 	font-size: 28rpx;
 }

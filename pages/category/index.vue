@@ -89,7 +89,7 @@ onLoad(() => {
 <style scoped>
 .container {
 	height: 100vh;
-	background-color: #F5F5F5;
+	background-color: transparent;
 }
 
 .category-wrapper {
